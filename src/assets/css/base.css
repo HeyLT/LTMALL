@@ -1,4 +1,10 @@
-@import './normalize.css';
+@import "./normalize.css";
+
+@media screen and (min-width: 750px) {
+  html {
+      font-size: 75px!important;
+  }
+}
 
 li {
   list-style: none;
@@ -44,15 +50,21 @@ a:hover {
 button,
 input {
   /* "\5B8B\4F53" 就是宋体的意思 这样浏览器兼容性比较好 */
-  font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, '\5B8B\4F53', sans-serif;
+  font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB,
+    "\5B8B\4F53", sans-serif;
 }
 
 body {
   /* CSS3 抗锯齿形 让文字显示的更加清晰 */
   -webkit-font-smoothing: antialiased;
-  background-color: #fff;
-  font: 14px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, '\5B8B\4F53',
-    sans-serif;
+  min-width: 320px;
+  max-width: 750px;
+  width: 10rem;
+  margin: 0 auto;
+  line-height: 1.5;
+  background-color: #f7f7f7;
+  font-family: -apple-system, Helvetica, sans-serif;
+  color: #666666;
 }
 
 .hide,
@@ -64,7 +76,7 @@ body {
   visibility: hidden;
   clear: both;
   display: block;
-  content: '.';
+  content: ".";
   height: 0;
 }
 

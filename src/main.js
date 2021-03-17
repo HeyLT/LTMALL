@@ -4,6 +4,11 @@ import router from "./router";
 import store from "./store/store";
 
 Vue.config.productionTip = false;
+//引入vant
+import './conponents/vant/vant'
+
+//rem
+import 'lib-flexible/flexible.js'
 
 new Vue({
   router,

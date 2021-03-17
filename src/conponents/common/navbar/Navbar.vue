@@ -18,7 +18,7 @@ export default {
   left: 0;
   right: 0;
   display: flex;
-  height: 49px;
+  height: .653333rem;
   width: 100%;
   background-color: #f3f3f3;
 }

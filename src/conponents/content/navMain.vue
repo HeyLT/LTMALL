@@ -39,22 +39,22 @@ export default {
 .icon_home::before {
   font-family: "iconfont";
   content: "\e602";
-  font-size: 20px;
+  font-size: .266667rem;
 }
 .icon_category::before {
   font-family: "iconfont";
   content: "\e62b";
-  font-size: 20px;
+  font-size: .266667rem;
 }
 .icon_car::before {
   font-family: "iconfont";
   content: "\e601";
-  font-size: 20px;
+  font-size: .266667rem;
 }
 .icon_profile::before {
   font-family: "iconfont";
   content: "\e604";
-  font-size: 20px;
+  font-size: .266667rem;
 }
 
 #navbarMain {

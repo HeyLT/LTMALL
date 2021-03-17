@@ -44,6 +44,6 @@ export default {
 }
 
 .item_icon {
-  margin-bottom: -3px;
+  margin-bottom: -0.04rem;
 }
 </style>
